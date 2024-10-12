@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    height: 87vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./assets/travel_HD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    margin-left: 130px;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 90px;
+    border: 1px solid rgb(123, 106, 106);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+.form h1{
+    color: whitesmoke;
+    font-size: 2rem;
+
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+span{
+    color: orange;
+}
+.form .input-box{
+    padding: 15px;
+    margin: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow:inset -3px -3px rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
+    font-size: 1rem;
+}
+.input-box:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+#submit{
+    padding: 10px 20px;
+    margin-top: 5px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow:inset -3px -3px rgba(0, 0, 0, 0.3);
+    color: orange;
+    font-size: 1rem;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.icons{
+    margin-top: 30px;
+    color: whitesmoke;
+}

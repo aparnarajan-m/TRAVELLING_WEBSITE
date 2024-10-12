@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.home-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(./assets/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+.nav-div{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+} 
+.navbar {
+    display: flex;
+}
+.navbar a {
+    padding: 10px;
+    margin: 20px 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+.navbar a:hover{
+    color: orange;
+    transition: all .50s ease;
+    transform: translateY(-3px);
+    border-bottom: 3px solid rgba(225, 255, 255, 0.2);
+} 
+.heading {
+    margin-right: auto;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 30px; 
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color: orange;
+}
+.content-div{
+    padding: 200px 380px 60px;
+}
+.content-div h5{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: orange;
+    margin-bottom: 5px;
+}
+.content-div h1{
+  font-size: 4rem;
+  line-height: 1.2;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.content-div p{
+    font-size: 1rem;
+   color: whitesmoke; 
+}
+#btn{
+    color: whitesmoke;
+    background-color: orange;
+    margin-top: 20px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+#btn:hover{
+    transform: translateX(10px);
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    color: orange;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------- */
+
+.gallery-sec{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row1{
+    display: flex;
+}
+.row1 .content{
+    margin-top: 120px ;
+    width: 40%;
+    height: 40vh;
+}
+.row1 .img img{
+    width: 80%;
+    height: 30vh;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.row1 .content h3{
+    margin-left: 40px;
+}
+.row1 .content:hover{
+    transition: all .50s ease;
+    transform: translateY(-5px);
+}
+.row2{
+    display: flex;
+}
+
+.row2 .content{
+    width: 40%;
+    height: 40vh;
+    margin-top: 10px;
+}
+.row2 .img img{
+    width: 80%;
+    height: 30vh;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.row2 .content h3{
+    margin-left: 40px;
+}
+.row2 .content:hover{
+    transition: all .50s ease;
+    transform: translateY(-5px);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+.service-sec{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.servrow-1{
+    display: flex;
+}
+.servrow-2{
+    display: flex;
+}
+.servrow-1 .content-serv{
+    margin-top: 150px ;
+    margin-left: 50px;
+    padding: 8px;
+    border: 1px solid rgba(78, 91, 91, 0.1);
+}
+.servrow-2 .content-serv{
+    margin-top: 100px ;
+    margin-left: 50px;
+    padding: 8px;
+    border: 1px solid rgba(78, 91, 91, 0.1);
+}
+.content-serv:hover{
+    transition: all .50s ease;
+    transform: translateY(-5px);
+}
+.service-sec i{
+    color: orange;
+    font-size: 2rem;
+    margin: 10px 10px;
+}
+.service-sec p{
+    font-size: .8rem;
+}
+.service-sec h5{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: orange;
+    margin-bottom: 10px;
+  }
+ .service-sec p{
+      font-size: 1rem;
+     color: whitesmoke; 
+  } 
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+.about-sec{
+    padding: 0px;
+    margin: 0px;
+    /* width: 100%;
+    height: 100vh; */
+    background-color: black;
+}
+.abt{
+    display: flex;
+}
+.about-sec .content{
+    margin-left: 200px;
+    margin-top: 230px;
+}
+.about-sec h5{
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.about-sec h4{
+    color: whitesmoke;
+
+}
+span{
+    color: orange;
+}
+.about-sec p{
+    color: whitesmoke;
+    font-size: small;
+}
+.about-sec ul {
+    color: whitesmoke;
+    font-size: small;
+    list-style-type: none;
+}
+.about-sec i{
+    color: whitesmoke;
+}
+.icon{
+    margin-top: 5px;
+}
